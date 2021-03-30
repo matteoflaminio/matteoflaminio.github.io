@@ -86,7 +86,7 @@ white-space: normal;
 
 
 /* Small Desktops */
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
 	
 	body{ width: 80%; margin: auto; height: 3000px;
 	}
