@@ -91,7 +91,7 @@ white-space: normal;
 	body{ width: 80%; margin: auto; height: 3000px;
 	}
 	.line{display:none;}
-	.nome { height: 100%; position: absolute;   display:flex;
+	.nome { height: 400px; position: absolute;   display:flex;
   justify-content: left; width: auto;
   align-items: center; 
 }
@@ -139,8 +139,8 @@ white-space: normal;
 		
 		body{ width: 85%; margin: auto; height: 3000px;
 	}
-		h1{font-size: 50pt; white-space: normal;}
-	.nome { height: 40%; position: absolute;   display:flex;
+		h1{white-space: normal;}
+	.nome { height: 400px; position: absolute;   display:flex;
   justify-content: left; width: auto;
   align-items: center; 
 }
@@ -192,12 +192,12 @@ white-space: normal;
 	
 	body{ width: 85%; margin: auto; height: 3000px;
 	}
-		h1{font-size: 50pt; white-space: normal;}
-	.nome { height: 100%; position: absolute;   display:flex;
+		h1{white-space: normal;}
+	.nome { height: 400px; position: absolute;   display:flex;
   justify-content: left; width: auto;
   align-items: center; 
 }
-	p{width: 90%; font-size: 12pt;  line-height: 1.6;}
+	p{width: 90%;}
 	.box{width: 100%; display: flex; flex-wrap: wrap; margin-top: 150px; justify-content: space-between; }
 .box1{ width: 100%; margin-bottom:70px; height: 0;
   overflow: hidden;
