@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+body{width: 80%; margin: auto; height: 4000px; background-color: #F7F7F7;}
+
+h1 {color: #333333;
+ text-align: left;
+		font-family: DMSerif; 
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60pt;
+white-space: nowrap;
+
+}
+
+@font-face {
+  font-family: DMSerif;
+  src: url("DMSerifDisplay.woff");
+}
+
+svg{
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  display:inline-block;
+}
+
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #F7F7F7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: opacity 0.3s linear;
+}
+
+.line{height:2px;width: 50%; border-width:0;color:#333333;background-color:#333333; margin-left: 0; margin-top: 50px;}
+
+.titolo{ pointer-events: none; position: absolute; margin-top:  370px;  margin-left: 20px; font-weight: 600; color: #ffffff; z-index: 200;  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;}
+
+
+p  {font-family: 'Lato', sans-serif;  font-weight: 400; line-height: 1.8;   font-size: 15pt;
+white-space: normal;
+}
+
+.nome { height: 100%; position: fixed;   display: flex;
+  justify-content: left; width: 43%;
+  align-items: center;
+}
+
+
+
+.project {height: 100%; position: absolute;   display: flex;
+  justify-content: right; float: right;
+  align-items: center; width: 30%; right: 10%;
+
+
+}
+
+
+
+
+.box{display: inline-grid; height: 420px;  }
+.box1{margin-bottom: 150px;}
+
+
+
+.img1 {background-image: url("img/amicizia.png"); height: 420px; background-size: 420px 420px; float: right; width: 420px; border-radius: 5% ;}
+.img1:hover {background-image: url("img/amicizia1.png"); filter: brightness(75%); transition-duration: 0.7s}
+
+.img2 {background-image: url("img/citta.png"); height: 420px; background-size: 420px 420px; float: right; width: 420px; border-radius: 5% ;}
+.img2:hover {background-image: url("img/citta1.png"); filter: brightness(75%);transition-duration: 0.7s}
+
+.img3 {background-image: url("img/domus.png"); height: 420px; background-size: 420px 420px; float: right; width: 420px; border-radius: 5% ;}
+.img3:hover {background-image: url("img/domus1.png"); filter: brightness(75%);transition-duration: 0.7s}
+
+
+
+
+
+
+/* Small Desktops */
+@media (min-width: 767px) and (max-width: 1096px) {
+	
+	body{ width: 80%; margin: auto; height: 3000px;
+	}
+	.line{display:none;}
+	.nome { height: 100%; position: absolute;   display:flex;
+  justify-content: left; width: auto;
+  align-items: center; 
+}
+	p{width: 90%}
+	.box{width: 100%; display: flex; flex-wrap: wrap; margin-top: 200px; justify-content: space-between; }
+.box1{ width: 45%; margin-bottom:70px; height: 0;
+  overflow: hidden;
+  padding-top: 45%;
+  background: white;
+  position: relative;  background-color: #f7f7f7; 
+}
+	
+	.project {width: 80%; position: absolute;   display: flex;
+  justify-content: space-between; float: left;
+  align-items: center; left: 10%; top: 400px; flex-wrap: wrap;
+
+
+}
+	
+	
+	
+	.titolo{ margin-top: -45px;  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;}
+	
+	
+
+.img1 {position: absolute;
+  top: 0;
+  left: 0;
+ height:  100%;float: left; width: 100%; border-radius: 5% ;  background-size: cover; background-position: center;}
+.img2 {position: absolute;
+  top: 0;
+  left: 0;height:  100%;float:left; width: 100%; border-radius: 5% ; background-size: cover;background-position: center;}
+.img3 {position: absolute;
+  top: 0;
+  left: 0;height:  100%;float:left; width: 100%; border-radius: 5% ; background-size: cover; background-position: center;}
+
+	
+	
+	
+}
+/* Small Tablets */
+	@media (min-width: 321px)and (max-width: 767px) {
+		
+		body{ width: 85%; margin: auto; height: 3000px;
+	}
+		h1{font-size: 50pt; white-space: normal;}
+	.nome { height: 100%; position: absolute;   display:flex;
+  justify-content: left; width: auto;
+  align-items: center; 
+}
+	p{width: 90%; font-size: 12pt;  line-height: 1.6;}
+	.box{width: 100%; display: flex; flex-wrap: wrap; margin-top: 150px; justify-content: space-between; }
+.box1{ width: 100%; margin-bottom:70px; height: 0;
+  overflow: hidden;
+  padding-top: 100%;
+  background: white;
+  position: relative;  background-color: #f7f7f7; 
+}
+
+	.project {width: 85%; position: absolute;   display: flex;
+  justify-content: space-between; float: left;
+  align-items: center; left: 7.5%; top: 400px; flex-wrap: wrap;
+
+
+}
+	
+	.line{display:none;}
+	
+	.titolo{ margin-top: -45px;  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; font-size: 15pt;}
+	
+	
+
+.img1 {position: absolute;
+  top: 0;
+  left: 0;
+ height:  100%;float: left; width: 100%; border-radius: 5% ;  background-size: cover; background-position: center;}
+.img2 {position: absolute;
+  top: 0;
+  left: 0;height:  100%;float:left; width: 100%; border-radius: 5% ; background-size: cover;background-position: center;}
+.img3 {position: absolute;
+  top: 0;
+  left: 0;height:  100%;float:left; width: 100%; border-radius: 5% ; background-size: cover; background-position: center;}
+
+	
+		
+		
+		
+
+	}
+
+/* Mobile */
+@media (max-width: 320px) {
+	
+	
+	body{ width: 85%; margin: auto; height: 3000px;
+	}
+		h1{font-size: 50pt; white-space: normal;}
+	.nome { height: 100%; position: absolute;   display:flex;
+  justify-content: left; width: auto;
+  align-items: center; 
+}
+	p{width: 90%; font-size: 12pt;  line-height: 1.6;}
+	.box{width: 100%; display: flex; flex-wrap: wrap; margin-top: 150px; justify-content: space-between; }
+.box1{ width: 100%; margin-bottom:70px; height: 0;
+  overflow: hidden;
+  padding-top: 100%;
+  background: white;
+  position: relative;  background-color: #f7f7f7; 
+}
+	
+	.project {width: 85%; position: absolute;   display: flex;
+  justify-content: space-between; float: left;
+  align-items: center; left: 7.5%; top: 400px; flex-wrap: wrap;
+
+
+}
+	
+	.line{display:none;}
+	
+	.titolo{ margin-top: -45px;  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; font-size: 15pt;}
+	
+
+.img1 {position: absolute;
+  top: 0;
+  left: 0;
+ height:  100%;float: left; width: 100%; border-radius: 5% ;  background-size: cover; background-position: center;}
+.img2 {position: absolute;
+  top: 0;
+  left: 0;height:  100%;float:left; width: 100%; border-radius: 5% ; background-size: cover;background-position: center;}
+.img3 {position: absolute;
+  top: 0;
+  left: 0;height:  100%;float:left; width: 100%; border-radius: 5% ; background-size: cover; background-position: center;}
+
+		
+	
+	
+	
+	
+	
+	}

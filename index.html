@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Matteo Flaminio</title>
+<link rel="preload" href="DMSerifDisplay.woff" as="font" type="font/woff" crossorigin="anonymous">	
+	<link rel="preload" href="img/domus1.png" as="image">
+	<link rel="preload" href="img/citta1.png" as="image">
+	<link rel="preload" href="img/amicizia1.png" as="image">
+	
+<link href="stile.css" rel="stylesheet" type="text/css">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="preloader">
+    <!--
+   <svg version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  viewBox="0 0 100 100" enable-background="new 0 0 0 0" xml:space="preserve">
+    <path fill="#333" d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50">
+      <animatetransform 
+         attributeName="transform" 
+         attributeType="XML" 
+         type="rotate"
+         dur="1s" 
+         from="0 50 50"
+         to="360 50 50" 
+         repeatCount="indefinite" />
+  </path>
+</svg>
+    
+    -->
+    
+  </div>
+
+<div class="nome">
+  <h1>Hi, I&#8217;m Matteo<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt at augue commodo ornare. Phasellus ac tortor id turpis ornare porta. Praesent porta nec erat eu aliquet. Pellentesque ut pellentesque ex. Suspendisse hendrerit facilisis nunc ac mattis. </p><hr class="line"></h1>
+	
+</div>
+
+	<div class="project"><div class="box">
+	<div class="box1"><a href="https://www.matteoflaminio.it"><div class="img1"></div></a><p class="titolo">Un'amicizia spaziale</p></div>
+		<div class="box1"><a href="https://www.matteoflaminio.it"><div class="img2"></div></a><p class="titolo">Città - Un secolo di cambiamenti</p></div>
+		<div class="box1"><a href="https://www.matteoflaminio.it"><div class="img3"></div></a><p class="titolo">Domus Take Over</p></div>
+		
+		</div>
+	</div>
+	
+<script>const preloader = document.querySelector('.preloader');
+
+const fadeEffect = setInterval(() => {
+  // if we don't set opacity 1 in CSS, then   //it will be equaled to "", that's why we   // check it
+  if (!preloader.style.opacity) {
+    preloader.style.opacity = 1;
+  }
+  if (preloader.style.opacity > 0) {
+    preloader.style.opacity -= 0.1; preloader.style.pointerEvents="none";
+  } else {
+    clearInterval(fadeEffect);
+  }
+}, 70);
+
+window.addEventListener('load', fadeEffect);	
+	
+	</script>
+	
+</body>
+	
+	
+	
+</html>
