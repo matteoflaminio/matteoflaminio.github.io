@@ -85,57 +85,9 @@ white-space: normal;
 
 
 
-/* Small Desktops */
-@media (min-width: 951px) and (max-width: 1096px) {
-	
-	body{ width: 80%; margin: auto; height: 3000px;
-	}
-	.line{display:none;}
-	.nome { height: 100%; position: absolute;   display:flex;
-  justify-content: left; width: auto;
-  align-items: center; 
-}
-	p{width: 90%}
-	.box{width: 100%; display: flex; flex-wrap: wrap; margin-top: 200px; justify-content: space-between; }
-.box1{ width: 45%; margin-bottom:70px; height: 0;
-  overflow: hidden;
-  padding-top: 45%;
-  background: white;
-  position: relative;  background-color: #f7f7f7; 
-}
-	
-	.project {width: 80%; position: absolute;   display: flex;
-  justify-content: space-between; float: left;
-  align-items: center; left: 10%; top: 400px; flex-wrap: wrap;
 
-
-}
-	
-	
-	
-	.titolo{ margin-top: -45px;  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;}
-	
-	
-
-.img1 {position: absolute;
-  top: 0;
-  left: 0;
- height:  100%;float: left; width: 100%; border-radius: 5% ;  background-size: cover; background-position: center;}
-.img2 {position: absolute;
-  top: 0;
-  left: 0;height:  100%;float:left; width: 100%; border-radius: 5% ; background-size: cover;background-position: center;}
-.img3 {position: absolute;
-  top: 0;
-  left: 0;height:  100%;float:left; width: 100%; border-radius: 5% ; background-size: cover; background-position: center;}
-
-	
-	
-	
-}
 /* Small Tablets */
-	@media (min-width: 321px)and (max-width: 951px) {
+	@media (min-width: 321px)and (max-width: 1096px) {
 		
 		body{ width: 85%; margin: auto; height: 3000px;
 	}
