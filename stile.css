@@ -86,7 +86,7 @@ white-space: normal;
 
 
 /* Small Desktops */
-@media (min-width: 767px) and (max-width: 1096px) {
+@media (min-width: 961px) and (max-width: 1096px) {
 	
 	body{ width: 80%; margin: auto; height: 3000px;
 	}
@@ -135,7 +135,7 @@ white-space: normal;
 	
 }
 /* Small Tablets */
-	@media (min-width: 321px)and (max-width: 767px) {
+	@media (min-width: 321px)and (max-width: 961px) {
 		
 		body{ width: 85%; margin: auto; height: 3000px;
 	}
